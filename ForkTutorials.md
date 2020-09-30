@@ -19,18 +19,18 @@
 
         ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git3.jpg)
 
-2.  后续，如果要调整1.c中的选项，打开https://github.com/apps/pull，点击Configure，输入github密码进入
-    pull的相关设置。
+    3.  后续，如果要调整1.c中的选项，打开https://github.com/apps/pull，点击Configure，输入github密码进入
+        pull的相关设置。
 
-    ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git4.jpg)
+        ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git4.jpg)
 
-    1.  进入后，找到Repository access，根据自己的需求，重新选择：All
+    4.  进入后，找到Repository access，根据自己的需求，重新选择：All
         repositories(就是同步已经frok的仓库以及未来fork的仓库)，Only select
         repositories(仅选择要自己需要同步的仓库，其他fork的仓库不会被同步)，Save后保存生效。
 
         ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git5.jpg)
 
-    2.  Pull app作者虽然在项目中写道keeps your forks up-to-date with upstream
+    5.  Pull app作者虽然在项目中写道keeps your forks up-to-date with upstream
         via automated pull
         requests，但当上游仓库有更改时，自己的仓库会在3个小时内完成与上游的同步，3个小时是Pull
         app作者说的最长时间。当然也可以通过手动触发同步上游仓库，手动触发方式：https://pull.git.ci/process/你的GitHub名字/你的仓库名字（例如：https://pull.git.ci/process/xxxxx/test），手动触发可能会进行人机验证，验证通过后会显示Success。
@@ -49,7 +49,7 @@
 
     ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git9.jpg)
 
-    1.  在默认分支下添加一个文件。
+2.  在默认分支下添加一个文件。
 
 ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git10.jpg)
 
@@ -57,9 +57,9 @@
 
     ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git11.jpg)
 
-    1.  请在https://github.com/wei/pull\#advanced-setup-with-config 页复制代码，
+2.  请在https://github.com/wei/pull\#advanced-setup-with-config 页复制代码，
 
-        注意：upstream处要修改为上游仓库作者名字。
+    注意：upstream处要修改为上游仓库作者名字。
 
 | ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git12.jpg) |   |
 |------------------------------------------------------------------------------|---|
@@ -74,13 +74,13 @@
 
     ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git14.jpg)
 
-    1.  Pull app作者虽然在项目中写道keeps your forks up-to-date with upstream
-        via automated pull
-        requests，但当上游仓库有更改时，自己的仓库会在3个小时内完成与上游的同步，3个小时是Pull
-        app作者说的最长时间。当然也可以通过手动触发同步上游仓库，手动触发方式：https://pull.git.ci/process/你的GitHub名字/你的仓库名字（例如：<https://pull.git.ci/process/xxxxx/test>
-        ），手动触发可能会进行人机验证，验证通过后会显示Success。具体见1.f提供的图片。
+2.  Pull app作者虽然在项目中写道keeps your forks up-to-date with upstream via
+    automated pull
+    requests，但当上游仓库有更改时，自己的仓库会在3个小时内完成与上游的同步，3个小时是Pull
+    app作者说的最长时间。当然也可以通过手动触发同步上游仓库，手动触发方式：https://pull.git.ci/process/你的GitHub名字/你的仓库名字（例如：<https://pull.git.ci/process/xxxxx/test>
+    ），手动触发可能会进行人机验证，验证通过后会显示Success。具体见1.f提供的图片。
 
-2.  本人仅测试过forks一个仓库只有2个分支的项目，如果有多个分支，不能保证是否可行，请自行测试，或者是使用本教程第3部分高级玩法。
+3.  本人仅测试过forks一个仓库只有2个分支的项目，如果有多个分支，不能保证是否可行，请自行测试，或者是使用本教程第3部分高级玩法。
 
 ## 高级玩法
 
