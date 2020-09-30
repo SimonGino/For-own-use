@@ -2,8 +2,7 @@
 
 保持自己github的forks自动和上游仓库同步的教程，信息来源于https://github.com/wei/pull，以下教程仅是出于个人爱好，不保证本教程的完全正确性，最终请以作者https://github.com/wei/pull的描述为准。
 
-1.
-当上游的仓库仅有一个默认分支。或者上游仓库有两个分支，我们仅需要同步他的默认分支，其他分支对内容对我们来说无关紧要。
+1.当上游的仓库仅有一个默认分支。或者上游仓库有两个分支，我们仅需要同步他的默认分支，其他分支对内容对我们来说无关紧要。
 
 >   ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git1.jpg)
 
