@@ -1,6 +1,6 @@
 ## 只同步默认分支的教程
 
-保持自己github的forks自动和上游仓库同步的教程，信息来源于https://github.com/wei/pull，以下教程仅是出于个人爱好，不保证本教程的完全正确性，最终请以作者https://github.com/wei/pull的描述为准。
+保持自己github的forks自动和上游仓库同步的教程，信息来源于https://github.com/wei/pull ， 以下教程仅是出于个人爱好，不保证本教程的完全正确性，最终请以作者https://github.com/wei/pull 的描述为准。
 
 1.当上游的仓库仅有一个默认分支。或者上游仓库有两个分支，我们仅需要同步他的默认分支，其他分支对内容对我们来说无关紧要。
 
@@ -19,7 +19,7 @@
 
 >   ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git3.jpg)
 
->   d)后续，如果要调整1.c中的选项，打开https://github.com/apps/pull，点击Configure，输入github密码进入
+>   d)后续，如果要调整1.c中的选项，打开https://github.com/apps/pull ，点击Configure，输入github密码进入
 >   pull的相关设置。
 
 >   ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git4.jpg)
@@ -73,7 +73,7 @@
 >   f)Pull app作者虽然在项目中写道keeps your forks up-to-date with upstream via
 >   automated pull
 >   requests，但当上游仓库有更改时，自己的仓库会在3个小时内完成与上游的同步，3个小时是Pull
->   app作者说的最长时间。当然也可以通过手动触发同步上游仓库，手动触发方式：https://pull.git.ci/process/你的GitHub名字/你的仓库名字（例如：https://pull.git.ci/process/xxxxx/test
+>   app作者说的最长时间。当然也可以通过手动触发同步上游仓库，手动触发方式：https://pull.git.ci/process/你的GitHub名字/你的仓库名字 （例如：https://pull.git.ci/process/xxxxx/test
 >   ），手动触发可能会进行人机验证，验证通过后会显示Success。具体见1.f提供的图片。
 
 >   g)本人仅测试过forks一个仓库只有2个分支的项目，如果有多个分支，不能保证是否可行，请自行测试，或者是使用本教程第3部分高级玩法。
@@ -81,5 +81,5 @@
 ## 高级玩法
 
 3.当然，作者还有其他更好的项目用于同步所有分支，例如使用 GitHub actions
-进行同步。请参考原作者的项目https://github.com/wei/git-sync，
+进行同步。请参考原作者的项目 https://github.com/wei/git-sync ，
 https://github.com/repo-sync/github-sync 。
