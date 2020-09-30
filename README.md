@@ -59,7 +59,7 @@
 
 >   ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git11.jpg)
 
->   d)请在https://github.com/wei/pull \#advanced-setup-with-config
+>   d)请在https://github.com/wei/pull#advanced-setup-with-config
 >   页复制代码，注意：upstream处要修改为上游仓库作者名字。
 
 >   ![](https://raw.githubusercontent.com/lxk0301/scripts/master/icon/git12.jpg)
