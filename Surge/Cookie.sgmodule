@@ -1,0 +1,21 @@
+#!name=Simon iOS Cookies Module
+#!desc=iOS Cookies 模块配置
+#!system=ios
+
+[Script]
+# 航旅纵横
+http-request ^https:\/\/cloud\.umetrip\.com\/gateway\/api\/web\/rest\/polite\/app\/sign\/signpageinitdata script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
+
+# ximalaya
+http-request ^https?:\/\/.*\/mobile\-user\/homePage\/.* script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
+
+# smzdm
+http-request ^https:\/\/www\.smzdm\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
+
+# 获取微博 Cookie.
+http-request https:\/\/api\.weibo\.cn\/\d\/page\/\w+\?gsid script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
+# 微博钱包签到Cookie
+http-request https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js
+
+[MITM]
+hostname = cloud.umetrip.com, mobwsa.ximalaya.com, *.smzdm.com, api.weibo.cn, pay.sc.weibo.com
