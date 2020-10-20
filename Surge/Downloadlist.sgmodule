@@ -3,22 +3,22 @@
 
 [Rule]
 # Mac Download
-PROCESS-NAME,aria2c
-PROCESS-NAME,fdm
-PROCESS-NAME,Folx
-PROCESS-NAME,NetTransport
-PROCESS-NAME,Thunder
-PROCESS-NAME,Transmission
-PROCESS-NAME,uTorrent
-PROCESS-NAME,WebTorrent
-PROCESS-NAME,WebTorrent Helper
-PROCESS-NAME,DownloadService
-PROCESS-NAME,Weiyun
+PROCESS-NAME,aria2c,DIRECT,DIRECT
+PROCESS-NAME,fdm,DIRECT
+PROCESS-NAME,Folx,DIRECT
+PROCESS-NAME,NetTransport,DIRECT
+PROCESS-NAME,Thunder,DIRECT
+PROCESS-NAME,Transmission,DIRECT
+PROCESS-NAME,uTorrent,DIRECT
+PROCESS-NAME,WebTorrent,DIRECT
+PROCESS-NAME,WebTorrent Helper,DIRECT
+PROCESS-NAME,DownloadService,DIRECT
+PROCESS-NAME,Weiyun,DIRECT
 
 # bt
-DOMAIN-KEYWORD,aria2
-DOMAIN-KEYWORD,xunlei
-DOMAIN-KEYWORD,yunpan
-DOMAIN-KEYWORD,Thunder
-DOMAIN-KEYWORD,XLLiveUD
-URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)
+DOMAIN-KEYWORD,aria2,DIRECT
+DOMAIN-KEYWORD,xunlei,DIRECT
+DOMAIN-KEYWORD,yunpan,DIRECT
+DOMAIN-KEYWORD,Thunder,DIRECT
+DOMAIN-KEYWORD,XLLiveUD,DIRECT
+URL-REGEX,(torrent|announce.php\?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=),DIRECT
